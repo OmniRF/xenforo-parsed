@@ -117,8 +117,7 @@
 			var DocumentForm *goquery.Document
 
 
-
-			ID = 	
+			ID = strconv.Itoa(i)
 
 			DocumentForm = getDocument(url + "/members/" + ID + "/" )
 
