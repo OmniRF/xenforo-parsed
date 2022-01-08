@@ -46,8 +46,7 @@
 			if err != nil {
 				log.Fatal(err)
 			}
-
-			//log.Printf("GET %s successfully\n", url)
+			
 			return doc
 		}
 
@@ -94,16 +93,12 @@
 
 		fmt.Println("Enter forum url: ")
 
-		// var then variable name then variable type
 
-		// Taking input from user
 		fmt.Scanln(&url)
 
 		fmt.Println("Enter a user amount: ")
 
-		// var then variable name then variable type
 
-		// Taking input from user
 		fmt.Scanln(&UsersAmount)
 
 
