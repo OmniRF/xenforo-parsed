@@ -34,8 +34,6 @@
 		}
 
 		req.Header.Set("User-Agent", "telegram:@omnipf")
-		req.AddCookie(&http.Cookie{Name: "xf_user", Value: "54288%2CPpdQHcJootv7AhhTMQ3gh4WSRRSx0emMwWtMysiI"})
-		req.AddCookie(&http.Cookie{Name: "xf_session", Value: "54288%PKwyzGElHiFNdKF486Jf7tpiG23DWv3C"})
 		resp, err := client.Do(req)
 
 		if err != nil {
